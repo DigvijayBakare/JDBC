@@ -22,7 +22,7 @@ public class ImageSaver {
             String q = "insert into Image(pic) values(?)";
             PreparedStatement preStat = con.prepareStatement(q);
 
-            FileInputStream fi = new FileInputStream("C:\\Users\\DIGVIJAY\\Pictures\\New folder\\wallpaperflare.com_wallpaper.jpg");
+            FileInputStream fi = new FileInputStream("wallpaperflare.com_wallpaper.jpg");
             preStat.setBinaryStream(1, fi, fi.available());
             preStat.executeUpdate();
 
