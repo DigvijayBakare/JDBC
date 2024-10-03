@@ -1,0 +1,14 @@
+basic-jdbc-sample-master
+
+1) Unzip the zip and open the project in the IntelliJ ide.
+2) Give required permissions and it'll auto-update some file of maven and sdk
+3) In the pom.xml file add dependency for postgres-data-driver
+4) Maven -> first clean the maven 
+	    second install the maven - it'll add/install the dependency for the project
+5) Review the project and understand the code.
+6) Add the required constants in the JDBCConstant file (i.e. database connection inputs)
+7) Open the Postgres-database (PgAdmin4) add create a table using 
+-- CREATE TABLE PERSON(ID INT8, FIRST_NAME VARCHAR(10), LAST_NAME VARCHAR(10), EMAIL VARCHAR(50), JOINED_DATE DATE NOT NULL DEFAULT CURRENT_DATE);
+8) Display or view the table using 
+-- SELECT * FROM PERSON;
+9) Now in the project try to run the JDBCDaoImpl file
