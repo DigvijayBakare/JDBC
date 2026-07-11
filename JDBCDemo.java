@@ -8,9 +8,9 @@ public class JDBCDemo {
 //        String url = "jdbc:odbc:XE";
 
         String driverClassName = "org.postgresql.Driver";
-        String url = "jdbc:postgresql://localhost:5432/TestDB";
-        String username = "postgres";
-        String password = "19111011";
+        String url = "jdbc:postgresql://*****:5432/*****";
+        String username = "*****";
+        String password = "*****";
         String query = "insert into student values(109, 'bhatt')";
 
         // Load driver class

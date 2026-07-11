@@ -7,9 +7,9 @@ import java.sql.PreparedStatement;
 public class InsertingData {
     public static void main(String[] args) {
         String driverClassName = "org.postgresql.Driver";
-        String url = "jdbc:postgresql://localhost:5432/TestDB";
-        String username = "postgres";
-        String password = "19111011";
+        String url = "jdbc:postgresql://*****:5432/*****";
+        String username = "*****";
+        String password = "*****";
         try {
             Class.forName(driverClassName);
             Connection con = DriverManager.getConnection(url, username, password);

@@ -8,9 +8,9 @@ import java.sql.Statement;
 public class SelectJDBC {
     private static Connection con;
     public static Connection getConnection() {
-        String url = "jdbc:postgresql://localhost:5432/TestDB";
-        String username = "postgres";
-        String password = "19111011";
+        String url = "jdbc:postgresql://*****:5432/*****";
+        String username = "*****";
+        String password = "*****";
 
         try {
             if (con == null) {
